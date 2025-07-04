@@ -84,6 +84,10 @@ export type Database = {
         }
         Returns: boolean
       }
+      setup_demo_users: {
+        Args: Record<PropertyKey, never>
+        Returns: undefined
+      }
     }
     Enums: {
       app_role: "admin" | "read_only"
